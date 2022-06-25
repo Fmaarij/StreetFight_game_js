@@ -1,0 +1,33 @@
+-Nom du projet Street Kadri
+
+Création de 5 personnages (Kad-Cactus-Kevin)
+
+Chaque personnage à un attribut unique(une fonction) ex:Super Coup de poing 
+(qui fait le double de dégat après 3 rounds passer sous la barre des 
+50% de hp(Point de vie)).
+
+fonction unique : 
+kad -> Super Sayain(me permet de récupérer toute ma vie et 
+mes dégats comtpes double, si j'arrive à tenir 3 tours sous la barre 
+des 30% de hp).
+
+Cactus -> Epines (Tout les 3 tours envoies épines ce qui fait la moitié de ses dégats 
+classiques mais permet de paralyser cad l'autre ne joue pas)
+
+Kev -> DODO (tout les 2 tours il peut dormir 
+ce qui lui rends invulnérables.. et récupère 10% de hp)
+
+Pour la partie visuel je dois avoir Un bouton au milieu qui va lancer la partie.
+Une fois la pârtie lancer On choisit son personnage 3 autres boutons Cac/Kev/Kad.
+
+De là le combat commence avec la possibilité d'attaquer(1er attaque ou seconde attaque) ou de défendre (permet de bloquer 70% du coup). 
+le bouton de la capacité apparait seulement quand la capacité est dispo.
+
+Chaque combat dure 90 sec. Si il y a aucun après les 90 sec le vainqueurs est choisit en fonction des points de vie.
+
+
+Commment est composer un personnage : Nom Prenom Point de vie/ Coup de poing/ coup de pied/ et attaque spéciale.
+
+Kad à 400 hp ->80 coup de poing /60 coup de pied.
+Cactus à 600 hp ->65 coup de poing /50 coup de pied.
+Kev à 300 hp -> 70 coup de poing /70 coup de pied.
