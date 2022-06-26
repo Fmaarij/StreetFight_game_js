@@ -1,0 +1,27 @@
+.contenuPlayer1,
+.contenuPlayer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+button {
+    padding: 1.2rem;
+    font-size: 2rem !important;
+    border: none;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: bolder;
+    gap: 1rem !important;
+    border-radius: 100% !important;
+}
+
+button:nth-child(2) {
+    width: 8.2rem;
+}

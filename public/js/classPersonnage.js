@@ -4,22 +4,14 @@ let kad = {
     pointDeVie: 400,
     tabDegatKad: [],
     coupDePoing(enemie) {
-
-        // while(enemie.pointDeVie==30){
-
-
         enemie.pointDeVie -= 30;
-        // if(enemie.pointDeVie>=20){
-        console.log(enemie.name + " a perdu 30 PDV mnt son PDV= " + enemie.pointDeVie);
-        // }else{
-        //     console.log(enemie.name + " a perdu cette fois");
-        // }
-        // };
+        // console.log(enemie.name + " a perdu 30 PDV mnt son PDV= " + enemie.pointDeVie);
+
     },
 
     coupDePied(enemie) {
         enemie.pointDeVie -= 50;
-        console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
+        // console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
     },
     superSayain(playerItSelf) {
         if (playerItSelf.pointDeVie == (0.3 * this.pointDeVie)) {
@@ -37,12 +29,12 @@ let cactus = {
     tabDegatCactus: [],
     coupDePoing(enemie) {
         enemie.pointDeVie -= 30;
-        console.log(enemie.name + " perdu 30 PDV mnt son PDV = " + enemie.pointDeVie);
+        // console.log(enemie.name + " perdu 30 PDV mnt son PDV = " + enemie.pointDeVie);
     },
 
     coupDePied(enemie) {
-        return enemie.pointDeVie -= 50;
-        console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
+         enemie.pointDeVie -= 50;
+        // console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
     },
     epines() {
 
@@ -57,12 +49,12 @@ let kev = {
     tabDegatKev: [],
     coupDePoing(enemie) {
         enemie.pointDeVie -= 30;
-        console.log(enemie.name + " a perdu 30 PDV mnt son PDV = " + enemie.pointDeVie);
+        // console.log(enemie.name + " a perdu 30 PDV mnt son PDV = " + enemie.pointDeVie);
     },
 
     coupDePied(enemie) {
         enemie.pointDeVie -= 50;
-        console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
+        // console.log(enemie.name + " a perdu 50 PDV mnt son PDV = " + enemie.pointDeVie);
     },
     dodo() {
 
